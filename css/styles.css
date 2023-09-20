@@ -1,0 +1,399 @@
+body {
+    max-width: 1440px;
+    margin: 0px;
+}
+
+ul {
+    display: inline-block;
+    padding-left: 0px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section1,
+.section2,
+.section3 {
+    padding: 0px 156px 0px 156px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    max-height: 72px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 76px;
+    max-height: 72px;
+}
+
+.menu {
+    display: flex;
+    max-height: 72px;
+    margin-right: 332px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+header .contacts-container {
+    max-height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.webstudio {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+
+span {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.studio, .portfolio {
+    margin-right: 40px;
+}
+
+header .email {
+    margin-right: 40px;
+}
+
+
+.nav {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        display: flex;
+
+}
+
+.contacts-menu {
+color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+        display: flex;
+        flex-direction: row;
+        max-height: 72px;
+}
+    /* Hero Image Section */
+
+.hero-image {
+    height: 600px;
+    background-color: rgba(46, 47, 66, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+main h1 {
+    color: var(--WHITE, #FFF);
+    
+        /* Header 1 */
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-top: 188px;
+}
+
+button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    margin-bottom: 188px;
+    cursor: pointer;
+}
+
+    /* Section 1 */
+
+.section1 {
+    margin-bottom: 120px;
+}
+
+.section1 ul {
+    margin: 0px;
+    display: flex;
+}
+h3 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+        width: 264px;
+        margin-top: 0px;
+}
+
+.strategy, .punctuality, .diligence {
+    margin-right: 24px;
+}
+
+.section1 .technologies {
+    margin-right: 0px;
+}
+
+.section1 p {
+    color: var(--SLATE, #434455);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        width: 264px;
+}
+
+    /* Section 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section2 ul {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section2 img {
+    max-width: 100%;
+    
+}
+
+.section2 h2 {
+    margin-top: 0px;
+    margin-bottom: 72px;
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+    
+        /* Header 2 */
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.section2 li {
+    display: inline-block;
+
+}
+
+.section2 .img1, .img2 {
+    margin-right: 24px;
+}
+
+
+/* Section 3 */
+
+.section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: var(--CLOUD, #F4F4FD);
+        max-height: 732px;
+}
+
+.section3 ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mark-guerrero, .tom-ford, .camila-garcia {
+    margin-right: 24px;
+}
+.section3 li {
+    display: inline-block;
+    margin-bottom: 120px;
+}
+
+.section3 img {
+    width: 264px;
+    height: 260px;
+}
+
+.section3 h2 {
+    margin-top: 120px;
+    margin-bottom: 72px;
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+    
+        /* Header 2 */
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.section3 h3 {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+    
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+        margin-top: 32px;
+        margin-bottom: 8px;
+}
+
+.section3 p {
+    color: var(--SLATE, #434455);
+        text-align: center;
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        margin-top: 0px;
+        margin-bottom: 32px;
+}
+
+.mark-guerrero, .tom-ford, .camila-garcia, .daniel-wilson {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--NAVY-BLUE, #2E2F42);
+    padding-left: 156px;
+    height: 312px;
+}
+
+footer div {
+    padding-top: 101px;
+}
+
+footer a {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        margin-bottom: 17.5px;
+}
+
+footer .span-studio {
+    color: var(--CLOUD, #F4F4FD);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+footer p {
+    width: 264px;
+    color: var(--CLOUD, #F4F4FD);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        margin-bottom: 100px;
+}
