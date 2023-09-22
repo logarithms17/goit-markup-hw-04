@@ -48,6 +48,7 @@ h3 {
     line-height: 24px;
     /* 120% */
     letter-spacing: 0.4px;
+    margin: 0;
 }
 
 p {
@@ -220,18 +221,12 @@ button {
 
     /* Section 1 */
 
-.section1 {
-    margin-bottom: 120px;
-}
-
-.section1 li {
-    width: 264px;
-}
 
 .section1 ul {
     margin: 0px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0px;
 }
 
 .svg {
@@ -282,7 +277,6 @@ button {
         flex-direction: column;
         text-align: center;
         background: var(--CLOUD, #F4F4FD);
-        max-height: 732px;
 }
 
 .section3 ul {
@@ -300,10 +294,16 @@ button {
 .section3 img {
     width: 264px;
     height: 260px;
+    margin: 0px;
 }
 
 .mark-guerrero, .tom-ford, .camila-garcia, .daniel-wilson {
     background-color: rgba(255, 255, 255, 1);
+}
+
+.card-content {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 /* End of Section 3 */
