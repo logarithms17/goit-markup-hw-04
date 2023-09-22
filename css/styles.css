@@ -1,3 +1,11 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --SLATE: #434455;
+    --WHITE: #FFF;
+    --CLOUD: #F4F4FD;
+}
+
 body {
     max-width: 1440px;
 }
@@ -95,7 +103,8 @@ header .email {
 
 .hero-image {
     height: 600px;
-    background-color: rgba(46, 47, 66, 1);
+    background-color: rgba(46, 47, 66, 0.7);
+    /* background-image: url("dark-bg.png"); */
     display: flex;
     flex-direction: column;
     align-items: center;
