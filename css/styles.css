@@ -348,6 +348,9 @@ footer {
     background-color: var(--NAVY-BLUE, #2E2F42);
     padding-left: 156px;
     height: 312px;
+    display: flex;
+
+    
 }
 
 footer div {
@@ -392,4 +395,38 @@ footer p {
         /* 150% */
         letter-spacing: 0.32px;
         margin-bottom: 100px;
+}
+
+#footer-social-media {
+    color: var(--WHITE, #FFF);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        margin-bottom: 0px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+     margin-left: 120px;
+     gap: 16px;
+}
+
+.social-media-icons-svg {
+    display: flex;
+    width: 40x;
+    height: 40px;
+    flex-shrink: 0;
+    /* padding: 12px; */
+}
+
+.social-icons-footer {
+    display: flex;
+    gap: 16px;
 }
