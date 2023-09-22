@@ -103,13 +103,21 @@ header .email {
 
 .hero-image {
     height: 600px;
-    background-color: rgba(46, 47, 66, 0.7);
-    /* background-image: url("dark-bg.png"); */
+    background-image: url("people-office.png");
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
+}
+
+.image-overlay {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(46, 47, 66, 0.7);
+    background-position: center;
 }
 
 main h1 {
