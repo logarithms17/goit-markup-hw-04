@@ -9,11 +9,11 @@
 
 body {
     max-width: 1440px;
+    margin: auto;
 }
 
 ul {
     padding-left: 0px;
-    margin-top: 0px;
 }
 
 li {
@@ -215,6 +215,7 @@ button {
     letter-spacing: 0.64px;
     margin-bottom: 188px;
     cursor: pointer;
+    border: none;
 }
 
 /* End of Hero Image */
